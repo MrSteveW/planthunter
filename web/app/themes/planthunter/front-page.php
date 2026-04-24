@@ -1,8 +1,8 @@
 <?php get_header(); ?>
 
-<main class="home">
+<main class="front-page">
     
-    <section class="splash" style="background-image: url('<?php echo wp_get_attachment_image_url( 16, 'full' ); ?>');">
+    <section class="splash" style="background-image: url('<?php echo wp_get_attachment_image_url( 13, 'full' ); ?>');">
     <h1>Choose the right houseplant for you</h1>
     </section>
 

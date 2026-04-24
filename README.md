@@ -2,12 +2,12 @@
 
 ## Attributions
 
-[Bootstrapped with underscores](https://underscores.me/)
+[Bootstrapped with underscores](https://underscores.me/)  
 [Overhead succulents by Element5 Digital](https://unsplash.com/photos/green-succulent-plant-near-plant-z6i_UCBuu5Q?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
 
-[Croton by Annie Spratt](https://unsplash.com/photos/red-and-green-leaves-on-white-background-IcxBbmxecEM?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
-[Ficus by Chandra Oh](https://unsplash.com/photos/green-dumbcane-plants-on-brown-clay-pot-u9MM5mcML2Q?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
-[Sansevieria by Sarah Bronske]("https://unsplash.com/photos/green-plant-on-white-ceramic-pot-rGpZ6RKefXU?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+[Croton by Annie Spratt](https://unsplash.com/photos/red-and-green-leaves-on-white-background-IcxBbmxecEM?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)  
+[Ficus by Chandra Oh](https://unsplash.com/photos/green-dumbcane-plants-on-brown-clay-pot-u9MM5mcML2Q?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)  
+[Sansevieria by Sarah Bronske]("https://unsplash.com/photos/green-plant-on-white-ceramic-pot-rGpZ6RKefXU?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)  
 [Swiss Cheese plant by Annie Spratt](https://unsplash.com/photos/green-leaves-on-white-background-iWu70dv9vSM?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
 
 <p align="center">
