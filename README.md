@@ -1,3 +1,15 @@
+# Plant Hunter - A WordPress Bedrock site
+
+## Attributions
+
+[Bootstrapped with underscores](https://underscores.me/)
+[Overhead succulents by Element5 Digital](https://unsplash.com/photos/green-succulent-plant-near-plant-z6i_UCBuu5Q?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+
+[Croton by Annie Spratt](https://unsplash.com/photos/red-and-green-leaves-on-white-background-IcxBbmxecEM?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+[Ficus by Chandra Oh](https://unsplash.com/photos/green-dumbcane-plants-on-brown-clay-pot-u9MM5mcML2Q?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+[Sansevieria by Sarah Bronske]("https://unsplash.com/photos/green-plant-on-white-ceramic-pot-rGpZ6RKefXU?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+[Swiss Cheese plant by Annie Spratt](https://unsplash.com/photos/green-leaves-on-white-background-iWu70dv9vSM?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+
 <p align="center">
   <a href="https://roots.io/bedrock/">
     <img alt="Bedrock" src="https://cdn.roots.io/app/uploads/logo-bedrock.svg" height="100">
@@ -18,35 +30,3 @@
 <p align="center">
   <a href="https://roots.io/bedrock/">Website</a> &nbsp;&nbsp; <a href="https://roots.io/bedrock/docs/installation/">Documentation</a> &nbsp;&nbsp; <a href="https://github.com/roots/bedrock/releases">Releases</a> &nbsp;&nbsp; <a href="https://discourse.roots.io/">Community</a>
 </p>
-
-## Support us
-
-We're dedicated to pushing modern WordPress development forward through our open source projects, and we need your support to keep building. You can support our work by purchasing [Radicle](https://roots.io/radicle/), our recommended WordPress stack, or by [sponsoring us on GitHub](https://github.com/sponsors/roots). Every contribution directly helps us create better tools for the WordPress ecosystem.
-
-### Sponsors
-
-<a href="https://carrot.com/"><img src="https://cdn.roots.io/app/uploads/carrot.svg" alt="Carrot" width="120" height="90"></a> <a href="https://wordpress.com/"><img src="https://cdn.roots.io/app/uploads/wordpress.svg" alt="WordPress.com" width="120" height="90"></a> <a href="https://www.itineris.co.uk/"><img src="https://cdn.roots.io/app/uploads/itineris.svg" alt="Itineris" width="120" height="90"></a> <a href="https://kinsta.com/?kaid=OFDHAJIXUDIV"><img src="https://cdn.roots.io/app/uploads/kinsta.svg" alt="Kinsta" width="120" height="90"></a>
-
-## Overview
-
-Bedrock is a WordPress boilerplate for developers that want to manage their projects with Git and Composer. Much of the philosophy behind Bedrock is inspired by the [Twelve-Factor App](http://12factor.net/) methodology, including the [WordPress specific version](https://roots.io/twelve-factor-wordpress/).
-
-- Better folder structure
-- Dependency management with [Composer](https://getcomposer.org)
-- Easy WordPress configuration with environment specific files
-- Environment variables with [Dotenv](https://github.com/vlucas/phpdotenv)
-- Autoloader for mu-plugins (use regular plugins as mu-plugins)
-
-## Getting Started
-
-See the [Bedrock installation documentation](https://roots.io/bedrock/docs/installation/).
-
-## Community
-
-Keep track of development and community news.
-
-- Join us on Discord by [sponsoring us on GitHub](https://github.com/sponsors/roots)
-- Join us on [Roots Discourse](https://discourse.roots.io/)
-- Follow [@rootswp on Twitter](https://twitter.com/rootswp)
-- Follow the [Roots Blog](https://roots.io/blog/)
-- Subscribe to the [Roots Newsletter](https://roots.io/subscribe/)
