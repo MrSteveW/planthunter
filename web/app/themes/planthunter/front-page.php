@@ -7,16 +7,7 @@
     </section>
 
   <section class="featured-plants">
-    <?php
-    $plants = new WP_Query([
-      'post_type'      => 'houseplants',
-      'posts_per_page' => 3,
-    ]);
-    while ($plants->have_posts()) : $plants->the_post();
-      // render a plant card
-    endwhile;
-    wp_reset_postdata();
-    ?>
+    <?php echo do_shortcode('[metaslider id="20"]'); ?>
   </section>
 
 </main>

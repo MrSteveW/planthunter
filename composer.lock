@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0994bc48b8b95f6134d54541745b93d4",
+    "content-hash": "4423dd8849b1e6f3b28686d83a28415b",
     "packages": [
         {
             "name": "composer/installers",
@@ -1054,6 +1054,37 @@
                 "source": "https://plugins.svn.wordpress.org/advanced-custom-fields"
             },
             "time": "2026-04-09T17:15:45+00:00"
+        },
+        {
+            "name": "wp-plugin/ml-slider",
+            "version": "3.108.0",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/ml-slider/",
+                "reference": "tags/3.108.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/ml-slider.3.108.0.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0|~2.0"
+            },
+            "type": "wordpress-plugin",
+            "notification-url": "https://wp-packages.org/downloads",
+            "authors": [
+                {
+                    "name": "MetaSlider"
+                }
+            ],
+            "description": "Slider, gallery, carousel plugin for WordPress. Build your image slider, video slider, post slider, YouTube slider, or WooCommerce product slider.",
+            "homepage": "https://www.metaslider.com",
+            "support": {
+                "changelog": "https://wordpress.org/plugins/ml-slider/#developers",
+                "issues": "https://wordpress.org/support/plugin/ml-slider",
+                "source": "https://plugins.svn.wordpress.org/ml-slider"
+            },
+            "time": "2026-04-16T14:56:24+00:00"
         },
         {
             "name": "wp-theme/twentytwentyfive",
