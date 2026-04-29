@@ -2,8 +2,12 @@
 
 <main class="front-page">
     
-    <section class="splash" style="background-image: url('<?php echo wp_get_attachment_image_url( 13, 'full' ); ?>');">
-    <h1>Choose the right houseplant for you</h1>
+    <section class="splash" style="background-image: url('<?php echo wp_get_attachment_image_url( 28, 'full' ); ?>');">
+    <div class="splash-contents">
+    <div><h1>Choose the right houseplant for you</h1></div>
+    <div><a href="<?php echo esc_url( home_url( '/houseplants' ) ); ?>" class="planthunter-link">Hunt houseplants</a></div>
+    </div>
+    
     </section>
 
   <section class="featured-plants">

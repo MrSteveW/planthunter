@@ -43,17 +43,16 @@
 				?>
 				<p class="site-description"><?php echo $planthunter_description; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></p>
 			<?php endif; ?>
-		</div><!-- .site-branding -->
 
+			
+		</div><!-- .site-branding -->
 		<nav id="site-navigation" class="main-navigation">
-			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'planthunter' ); ?></button>
-			<?php
-			wp_nav_menu(
-				array(
-					'theme_location' => 'menu-1',
-					'menu_id'        => 'primary-menu',
-				)
-			);
-			?>
+			<ul id="primary-menu">
+				<li><a href="<?php echo esc_url( home_url( '/' ) ); ?>">Home</a></li>
+				<li><a href="<?php echo esc_url( home_url( '/houseplants' ) ); ?>">Houseplants</a></li>
+				<li><a href="<?php echo esc_url( home_url( '/about' ) ); ?>">About</a></li>
+			</ul>
 		</nav><!-- #site-navigation -->
+
+		
 	</header><!-- #masthead -->

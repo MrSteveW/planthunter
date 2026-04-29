@@ -139,7 +139,7 @@ add_action( 'widgets_init', 'planthunter_widgets_init' );
  */
 function planthunter_scripts() {
 	wp_enqueue_style( 'planthunter-style', get_stylesheet_uri(), array(), _S_VERSION );
-	wp_enqueue_style( 'planthunter-fonts', 'https://fonts.googleapis.com/css2?family=Milonga&family=Sen:wght@400..800&display=swap', array(), null );
+	wp_enqueue_style( 'planthunter-fonts', 'https://fonts.googleapis.com/css2?family=Milonga&family=Sen:wght@400..800&family=Ysabeau+SC:wght@1..1000&display=swap', array(), null );
 	wp_style_add_data( 'planthunter-style', 'rtl', 'replace' );
 
 	wp_enqueue_script( 'planthunter-navigation', get_template_directory_uri() . '/js/navigation.js', array(), _S_VERSION, true );

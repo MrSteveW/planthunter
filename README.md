@@ -9,6 +9,9 @@
 [Ficus by Chandra Oh](https://unsplash.com/photos/green-dumbcane-plants-on-brown-clay-pot-u9MM5mcML2Q?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)  
 [Sansevieria by Sarah Bronske]("https://unsplash.com/photos/green-plant-on-white-ceramic-pot-rGpZ6RKefXU?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)  
 [Swiss Cheese plant by Annie Spratt](https://unsplash.com/photos/green-leaves-on-white-background-iWu70dv9vSM?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+[Spider plant by feey](https://unsplash.com/photos/a-potted-plant-sitting-on-top-of-a-wooden-stool-aJgJ1lLxmu4?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+[Birds nest fern by feey](https://unsplash.com/photos/green-plant-on-brown-clay-pot-rL5Jz2e9Rao?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+[Chinese Evergreen by feey](https://unsplash.com/photos/green-and-red-plant-on-brown-clay-pot-tSWTSzwSz6M?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
 
 <p align="center">
   <a href="https://roots.io/bedrock/">

@@ -538,16 +538,6 @@ a {
   color: #4169e1;
 }
 
-a:visited {
-  color: #800080;
-}
-
-a:hover,
-a:focus,
-a:active {
-  color: #191970;
-}
-
 a:focus {
   outline: thin dotted;
 }
@@ -647,70 +637,48 @@ textarea {
 # Components
 --------------------------------------------------------------*/
 
-/* Navigation
+/* Navigation — desktop
 --------------------------------------------- */
 .main-navigation {
-  display: block;
-  width: 100%;
+  font-family: 'Ysabeau SC', serif;
+  font-size: 1.5rem;
+  margin-right: 10rem;
 }
 
 .main-navigation ul {
-  display: none;
+  display: flex;
   list-style: none;
   margin: 0;
-  padding-left: 0;
+  padding: 0;
+  gap: 20px;
 }
 
-.main-navigation ul ul {
-  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
-  float: left;
-  position: absolute;
-  top: 100%;
-  left: -999em;
-  z-index: 99999;
-}
-
-.main-navigation ul ul ul {
-  left: -999em;
-  top: 0;
-}
-
-.main-navigation ul ul li:hover > ul,
-.main-navigation ul ul li.focus > ul {
-  display: block;
-  left: auto;
-}
-
-.main-navigation ul ul a {
-  width: 200px;
-}
-
-.main-navigation ul li:hover > ul,
-.main-navigation ul li.focus > ul {
-  left: auto;
-}
-
-.main-navigation li {
-  position: relative;
-}
-
-.main-navigation a {
-  display: block;
+.main-navigation a,
+.main-navigation a:visited,
+.main-navigation a:hover,
+.main-navigation a:focus,
+.main-navigation a:active {
+  color: white;
   text-decoration: none;
 }
 
-/* Small menu. */
-.menu-toggle,
-.main-navigation.toggled ul {
-  display: block;
+/* Navigation — mobile
+--------------------------------------------- */
+.menu-toggle {
+  display: none;
 }
 
-@media screen and (min-width: 37.5em) {
+@media screen and (max-width: 37.5em) {
   .menu-toggle {
-    display: none;
+    display: block;
   }
 
   .main-navigation ul {
+    display: none;
+    flex-direction: column;
+  }
+
+  .main-navigation.toggled ul {
     display: flex;
   }
 }
@@ -968,22 +936,29 @@ textarea {
 .splash {
   font-family: 'Sen', serif;
   background-size: cover;
-  background-position: center;
-  height: 1000px;
+  background-position: bottom;
+  height: 100vh;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: left;
+  padding-left: clamp(1.5rem, 5vw, 5rem);
 }
 
 .splash h1 {
-  color: black;
+  color: white;
   text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.spash-contents {
+  display: flex;
+  flex-direction: column;
 }
 
 .site-title a {
   /* the linked title text */
   font-family: 'Milonga', serif;
-  color: black;
+  font-size: 2rem;
+  color: white;
   text-decoration: none;
 }
 
@@ -996,12 +971,42 @@ textarea {
   z-index: 100;
 }
 
-#primary {
+.site-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100vw;
+  padding: 1rem 1.5rem;
+}
+
+.main- #primary {
   margin-top: 0;
   padding-top: 0;
 }
 
-.splash {
-  height: 100vh; /* or a fixed px value */
-  padding-top: 50px; /* front-page text */
+body:not(.home) #primary {
+  padding-top: 80px;
+}
+
+/* PlantHunter link */
+.planthunter-link {
+  display: inline-block;
+  outline: none;
+  cursor: pointer;
+  font-weight: 500;
+  border: 1px solid transparent;
+  border-radius: 2px;
+  height: 36px;
+  line-height: 34px;
+  font-size: 14px;
+  color: white;
+  background-color: #b6d98c;
+  transition:
+    background-color 0.2s ease-in-out 0s,
+    opacity 0.2s ease-in-out 0s;
+  padding: 0 18px;
+  text-decoration: none;
+}
+.planthunter-link:hover {
+  filter: brightness(0.9);
 }
