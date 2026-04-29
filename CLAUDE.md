@@ -19,3 +19,6 @@ The theme uses PHP templates (`front-page.php`, etc.), not the Gutenberg block e
 - User is experienced with Laravel and Next.js — explain WordPress concepts by analogy to those frameworks where helpful.
 - Do not suggest building things from scratch (e.g. custom JS carousel implementations) when a plugin will do the job.
 - Never use `clamp()` in CSS suggestions. Use simple units (`rem`, `px`, `%`) and media queries instead.
+
+## CSS Naming Convention
+New CSS classes must be prefixed with the CPT name. Examples: `houseplant-archive-grid`, `houseplant-single-banner`. General layout classes unrelated to a CPT are exempt.
